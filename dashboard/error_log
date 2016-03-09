@@ -1,0 +1,10 @@
+[05-Sep-2014 16:02:32 America/Sao_Paulo] PHP Fatal error:  Class 'Auth_Orm' not found in /home/wwwcorre/public_html/modules/auth/classes/Kohana/Auth.php on line 37
+[05-Sep-2014 16:02:32 America/Sao_Paulo] PHP Stack trace:
+[05-Sep-2014 16:02:32 America/Sao_Paulo] PHP   1. {main}() /home/wwwcorre/public_html/dashboard/index.php:0
+[05-Sep-2014 16:02:32 America/Sao_Paulo] PHP   2. Kohana_Request->execute() /home/wwwcorre/public_html/dashboard/index.php:118
+[05-Sep-2014 16:02:32 America/Sao_Paulo] PHP   3. Kohana_Request_Client->execute() /home/wwwcorre/public_html/system/classes/Kohana/Request.php:990
+[05-Sep-2014 16:02:32 America/Sao_Paulo] PHP   4. Kohana_Request_Client_Internal->execute_request() /home/wwwcorre/public_html/system/classes/Kohana/Request/Client.php:114
+[05-Sep-2014 16:02:32 America/Sao_Paulo] PHP   5. ReflectionMethod->invoke() /home/wwwcorre/public_html/system/classes/Kohana/Request/Client/Internal.php:97
+[05-Sep-2014 16:02:32 America/Sao_Paulo] PHP   6. Kohana_Controller->execute() /home/wwwcorre/public_html/system/classes/Kohana/Request/Client/Internal.php:97
+[05-Sep-2014 16:02:32 America/Sao_Paulo] PHP   7. Controller_Root->before() /home/wwwcorre/public_html/system/classes/Kohana/Controller.php:69
+[05-Sep-2014 16:02:32 America/Sao_Paulo] PHP   8. Kohana_Auth::instance() /home/wwwcorre/public_html/dashboard/application/classes/Controller/Root.php:18
